@@ -1,0 +1,14 @@
+{
+  "identifier": "opcua test",
+  "name": "test for opcua profiles",
+  "description": "",
+  "attributes": [
+     
+  ],
+  "connectors": [
+     
+  ],
+  "measurements": [
+    
+  ]
+}

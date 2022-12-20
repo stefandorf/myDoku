@@ -1,0 +1,35 @@
+{
+  "id": 1,
+  "name": "OPC UA Test Device #1",
+  "serialNumber": "4711",
+  "description": "A test device",
+  "active": true,
+  "createdAt": "2021-08-24T20:21:36.354Z",
+  "updatedAt": "2021-08-24T20:21:36.354Z",
+  "profileId": 1,
+  "connectors": [
+    {
+      "id": 1,
+      "name": "OPCUA Connector",
+      "identifier": "opcua",
+      "isConfigured": false,
+      "description": null,
+      "status": "Inactive",
+      "createdAt": "2021-08-24T20:21:36.388Z",
+      "updatedAt": "2021-08-24T20:21:36.388Z",
+      "deviceId": 1,
+      "attributes": [
+        {
+          "id": 1,
+          "identifier": "opcua.endpoint",
+          "dataType": "String",
+          "value": "",
+          "createdAt": "2021-08-24T20:21:36.388Z",
+          "updatedAt": "2021-08-24T20:21:36.389Z",
+          "connectorId": 1
+        }
+      ]
+    }
+  ],
+  "attributes": []
+}

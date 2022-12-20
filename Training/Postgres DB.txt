@@ -1,0 +1,51 @@
+dsn := "host=localhost user=postgres password=supersicher dbname=kpi port=1111"
+
+docker run --name AnPostgres -e POSTGRES_PASSWORD=supersicher -d -p 1111:5432 postgres
+docker run --name Postgres -e POSTGRES_PASSWORD=ABP4furnace! -d -p 1111:5432 postgres
+winpty docker exec -it AnPostgres  bash
+
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/postgres
+
+go get -u github.com/gin-gonic/gin
+
+
+https://abp.atlassian.net/wiki/spaces/Aint/pages/864583686/Postgres+Database+Example
+
+In der cmd/main.go in Zeile 20 Passwort und Port anpassen
+
+go run main.go
+1.	in cmd
+2.	in web
+3.	die testing ignorieren
+
+
+https://www.pgadmin.org/
+Datenbank-Host->Datenbank->Schemas->public->Tables
+
+
+
+docker pull mcr.microsoft.com/mssql/server
+
+docker run --name MsSql -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=ABP4sql!" -p 1433:1433 -d mcr.microsoft.com/mssql/server:latest
+
+server=10.104.104.17,56482;database=ProdaptMaster;User ID=ProdaptMaster;Password='HQL;qB3ApH'
+
+server=10.104.104.17,56482;database=ProdaptMD;User ID=ProdaptMaster;Password='HQL;qB3ApH
+
+10.52.64.126 Edge
+10.52.64.127 ua
+
+Subnetz: 10.52.64.0/24, Maske: 255.255.255.0
+Gateway: 10.52.64.1
+Zeitserver NTP: rb-time.de.bosch.com [ 10.35.29.237]
+
+DNS: 10.104.106.254, 10.58.194.16
+DHCP: 10.104.106.254, 10.58.194.16
+
+
+docker pull mcr.microsoft.com/mssql/server
+
+
+
+ docker run --name CondApp -p 8080:8080 condition-monitoring

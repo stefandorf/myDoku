@@ -1,0 +1,481 @@
+
+sandorf@DENRDOM20013001 MINGW64 ~
+$ l:
+bash: l:: command not found
+
+sandorf@DENRDOM20013001 MINGW64 ~
+$ cd l:
+
+sandorf@DENRDOM20013001 MINGW64 /l
+$ git clone git@bitbucket.org:logicline/e360.git
+Cloning into 'e360'...
+Receiving objects: 100% (104/104), 19.92 KiB | 2.21 MiB/s, done.
+Resolving deltas: 100% (47/47), done.
+
+sandorf@DENRDOM20013001 MINGW64 /l
+$ git clone git@bitbucket.org:logicline/e360-app-contract.git
+Cloning into 'e360-app-contract'...
+Receiving objects: 100% (63/63), 215.12 KiB | 1005.00 KiB/s, done.
+Resolving deltas: 100% (23/23), done.
+
+sandorf@DENRDOM20013001 MINGW64 /l
+$ cd e360
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker-compose up -d
+59bf1c3509f3: Extracting [=======================>                           ]
+331f5eb007b4: Extracting [======================================>            ]
+331f5eb007b4: Extracting [================================================>  ]
+331f5eb007b4: Extracting [==================================================>]
+36.51MB/36.51MBxtracting [===================>                               ]
+72573d587fdf: Pull complete
+36ab5cedb38e: Extracting [==================================================>]
+36ab5cedb38e: Extracting [==================================================>]
+36ab5cedb38e: Pull complete
+efd3049a5a78: Extracting [======>                                            ]
+efd3049a5a78: Extracting [==================================================>]
+0d4e209a5a9f: Extracting [================================================>  ]
+0d4e209a5a9f: Extracting [=================================================> ]
+b948957c799f: Extracting [==================================================>]
+b948957c799f: Pull complete
+ef15eff6aca9: Extracting [==================================================>]
+ef15eff6aca9: Extracting [==================================================>]
+9124684a37f3: Extracting [==================================================>]
+9124684a37f3: Pull complete
+c3752b5943c8: Pull complete
+Digest: sha256:1de2c228f58d0dac990438312649dfc195be8b01a2052417768ea250f34d9ae1
+Status: Downloaded newer image for logicline/e360-device-service:v1.0.0-rc.25
+Pulling connector-sql (logicline/e360-ctor-sql:v1.0.0-rc.8)...
+0d4825fd3af5: Pull complete
+4edea4df48fb: Extracting [==================================================>]
+4edea4df48fb: Extracting [==================================================>]
+4edea4df48fb: Pull complete
+af12d293001a: Pull complete
+Digest: sha256:8ee4ca668dc775272adba500bdb5643e0caba3c1c09166e2485f4c9ca5106f49
+Status: Downloaded newer image for logicline/e360-ctor-sql:v1.0.0-rc.8
+Pulling connector-opcua (logicline/e360-opcua-client:v1.0.0-rc.1)...
+9ffe96dc7171: Extracting [==================================================>]
+1.614MB/1.614MBxtracting [=>                                                 ]
+50638f750deb: Extracting [==================================================>]
+50638f750deb: Pull complete
+4b03f06233aa: Pull complete
+Digest: sha256:51a09e8eeb749ab11a1559ba343b3895f99a14b9eaad125bdcda7e1bf9c4cf59
+Status: Downloaded newer image for logicline/e360-opcua-client:v1.0.0-rc.1
+Pulling active-writer (logicline/e360-active-writer:v1.0.0-rc.1)...
+b696e5f0f963: Extracting [=====================>                             ]
+b696e5f0f963: Extracting [===============================================>   ]
+   35MB/36.68MBxtracting [==========================>                        ]
+b696e5f0f963: Extracting [=================================================> ]
+b696e5f0f963: Extracting [==================================================>]
+293fa5faadb0: Pull complete
+4119711d8f23: Extracting [==================================================>]
+4119711d8f23: Extracting [==================================================>]
+4119711d8f23: Pull complete
+618574e0770d: Extracting [==========>                                        ]
+618574e0770d: Extracting [==================================================>]
+89798cbcc62f: Pull complete
+0fd955d046a0: Extracting [================================================>  ]
+0fd955d046a0: Extracting [================================================>  ]
+d4a80d4123fa: Extracting [==================================================>]
+d4a80d4123fa: Extracting [==================================================>]
+8f8a5a98ab84: Pull complete
+6bc4619320e0: Extracting [==================================================>]
+6bc4619320e0: Extracting [==================================================>]
+33847f680f63: Extracting [===========================================>       ]
+33847f680f63: Extracting [=============================================>     ]
+dbb907d5159d: Extracting [===============================================>   ]
+dbb907d5159d: Extracting [==================================================>]
+dbb907d5159d: Pull complete
+8a268f30c42a: Extracting [==================================================>]
+b10cf527a02d: Pull complete
+c90b090c213b: Extracting [==================================================>]
+c90b090c213b: Extracting [==================================================>]
+c90b090c213b: Pull complete
+1f41b2f2bf94: Pull complete
+e54d5c2acdf4: Extracting [=>                                                 ]
+e54d5c2acdf4: Pull complete
+Digest: sha256:1cec056d0d464a9bb861abfd0fcd29ca4d875dfcb1656f09a0ecb57057779d1d
+Status: Downloaded newer image for logicline/e360-cockpit:v1.0.0-rc.1
+97518928ae5f: Extracting [==================================================>]
+23182d7a473a: Download complete
+23182d7a473a: Extracting [================================================>  ]
+35.78MB/36.51MBxtracting [=======================================>           ]
+23182d7a473a: Extracting [==================================================>]
+23182d7a473a: Pull complete
+c006eebfdd13: Extracting [>                                                  ]
+54b2bc1b0275: Extracting [==================================================>]
+   159B/159B: Extracting [==============================>                    ]
+54b2bc1b0275: Pull complete
+ab43a497a009: Extracting [======>                                            ]
+ab43a497a009: Extracting [==================================================>]
+ab43a497a009: Extracting [==================================================>]
+a8d92930bbc5: Pull complete
+a13ce7441d4f: Extracting [===============================>                   ]
+a13ce7441d4f: Extracting [==================================================>]
+a13ce7441d4f: Extracting [==================================================>]
+c7d6701444cf: Pull complete
+8a4add41f148: Extracting [==================================================>]
+8a4add41f148: Extracting [==================================================>]
+8a4add41f148: Pull complete
+76bc4b591561: Pull complete
+Digest: sha256:229026e560d0e11a6f3741e7554921498e9a80bc2172568d2132a9d76199c7b8
+Status: Downloaded newer image for logicline/e360-r3:v1.0.0-rc.14
+Pulling e360-active-reader (logicline/e360-active-reader:v1.0.0-rc.3)...
+e8830168ab88: Pull complete
+4cbfe9e610db: Extracting [==================================================>]
+4cbfe9e610db: Extracting [==================================================>]
+4cbfe9e610db: Pull complete
+ce7ed28ee74d: Pull complete
+Digest: sha256:2aab474fd4db6336d6fa57fb74b9be9cf87ee4f87e220db4c238db8114bbd15c
+Status: Downloaded newer image for logicline/e360-active-reader:v1.0.0-rc.3
+Pulling reverse-proxy (traefik:v2.5)...
+8f1084cd7998: Pull complete
+cd589cd7ab30: Downloading [===>                                               ]
+cd589cd7ab30: Pull complete
+34d201bdb744: Extracting [==================================================>]
+34d201bdb744: Pull complete
+Digest: sha256:7d5a6ae66572b27afe1059ce893b59acb28de70f4ce298385e153d0a398ce7f8
+Status: Downloaded newer image for traefik:v2.5
+Creating e360_reverse-proxy_1 ...
+Creating e360_connector-sql_1 ...
+Creating e360_active-writer_1 ...
+Creating rabbitmq               ... error
+Creating e360_connector-opcua_1 ...
+Creating e360_reverse-proxy_1   ... error
+Creating e360_timescale_1       ...
+
+ERROR: for rabbitmq  Cannot create container for service rabbitmq: Conflict. The
+ container name "/rabbitmq" is already in use by container "80bc4a4301841007292e
+Creating e360_connector-sql_1   ... done
+Creating e360_active-writer_1   ... done
+
+Creating e360_connector-opcua_1 ... done
+Creating e360_e360-r3_1         ... done
+Creating e360_timescale_1       ... done
+Creating e360_controller_1        ... done
+Creating e360_maestro_1           ... done
+Creating e360_device-repository_1 ... done
+Creating e360_e360-cockpit_1      ... done
+Creating e360_telemetry-service_1 ... done
+Creating e360_e360-active-reader_1 ... done
+
+ERROR: for rabbitmq  Cannot create container for service rabbitmq: Conflict. The
+ container name "/rabbitmq" is already in use by container "80bc4a4301841007292e
+c0e7c0d4115ed718c73fc50a87a5773b7611de173bd1". You have to remove (or rename) th
+at container to be able to reuse that name.
+
+ERROR: for reverse-proxy  Cannot start service reverse-proxy: Ports are not avai
+lable: listen tcp 0.0.0.0:80: bind: An attempt was made to access a socket in a
+way forbidden by its access permissions.
+ERROR: Encountered errors while bringing up the project.
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ ^C
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker rm rabbitmq
+rabbitmq
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker-compose up -d
+e360_active-writer_1 is up-to-date
+e360_timescale_1 is up-to-date
+Starting e360_e360-r3_1 ...
+e360_connector-opcua_1 is up-to-date
+Starting e360_reverse-proxy_1 ...
+e360_connector-sql_1 is up-to-date
+e360_controller_1 is up-to-date
+e360_device-repository_1 is up-to-date
+e360_maestro_1 is up-to-date
+e360_e360-cockpit_1 is up-to-date
+Starting e360_reverse-proxy_1      ... error
+Starting e360_e360-active-reader_1 ...
+Creating rabbitmq                  ...
+Starting e360_e360-r3_1            ... done
+ERROR: for e360_reverse-proxy_1  Cannot start service reverse-proxy: Ports are n
+Starting e360_e360-active-reader_1 ... done
+Creating rabbitmq                  ... done
+Creating e360_e360-data-link_1     ... done
+
+ERROR: for reverse-proxy  Cannot start service reverse-proxy: Ports are not avai
+lable: listen tcp 0.0.0.0:80: bind: An attempt was made to access a socket in a
+way forbidden by its access permissions.
+ERROR: Encountered errors while bringing up the project.
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docke ps
+bash: docke: command not found
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker ps
+CONTAINER ID   IMAGE                                        COMMAND
+     CREATED              STATUS              PORTS
+
+                                    NAMES
+320ee68e8b92   logicline/e360-data-link:v1.0.0-rc.8         "/app/main"
+     About a minute ago   Up About a minute   0.0.0.0:3003->3003/tcp, :::3003->3
+003/tcp
+                                    e360_e360-data-link_1
+c4010e24cbd8   rabbitmq:3-management-alpine                 "docker-entrypoint.s
+…"   About a minute ago   Up About a minute   4369/tcp, 5671/tcp, 0.0.0.0:5672->
+5672/tcp, :::5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:1567
+2->15672/tcp, :::15672->15672/tcp   rabbitmq
+8a6647db6bf4   logicline/e360-cockpit:v1.0.0-rc.1           "/docker-entrypoint.
+…"   4 minutes ago        Up 4 minutes        0.0.0.0:3011->80/tcp, :::3011->80/
+tcp
+                                    e360_e360-cockpit_1
+efe0b63251bb   logicline/e360-device-service:v1.0.0-rc.25   "/usr/src/app/entryp
+…"   4 minutes ago        Up 4 minutes        0.0.0.0:3000->3000/tcp, :::3000->3
+000/tcp
+                                    e360_device-repository_1
+a63b070eb0e2   logicline/e360-controller:v1.0.0-rc.10       "/usr/src/app/entryp
+…"   4 minutes ago        Up 4 minutes        0.0.0.0:3010->3010/tcp, :::3010->3
+010/tcp
+                                    e360_controller_1
+06b877047892   logicline/e360-active-writer:v1.0.0-rc.1     "/app/main"
+     4 minutes ago        Up 4 minutes        3013/tcp
+
+                                    e360_active-writer_1
+f9f65234eb51   timescale/timescaledb:latest-pg12            "docker-entrypoint.s
+…"   4 minutes ago        Up 4 minutes        0.0.0.0:5432->5432/tcp, :::5432->5
+432/tcp
+                                    e360_timescale_1
+e604a04c24e6   logicline/e360-opcua-client:v1.0.0-rc.1      "/app/main"
+     4 minutes ago        Up 4 minutes        3007/tcp
+
+                                    e360_connector-opcua_1
+3b67e4034fa8   logicline/e360-ctor-sql:v1.0.0-rc.8          "/app/main"
+     4 minutes ago        Up 4 minutes        3002/tcp, 0.0.0.0:3032->3032/tcp,
+:::3032->3032/tcp
+                                    e360_connector-sql_1
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker ps -a
+CONTAINER ID   IMAGE                                           COMMAND                  CREATED         STATUS                          PORTS
+               NAMES
+320ee68e8b92   logicline/e360-data-link:v1.0.0-rc.8            "/app/main"              2 minutes ago   Up 2 minutes                    0.0.0.0:3003->3003/tcp, :::3003->3003/tcp
+               e360_e360-data-link_1
+c4010e24cbd8   rabbitmq:3-management-alpine                    "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes                    4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, :::5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp, :::1567
+2->15672/tcp   rabbitmq
+f2af5eb964da   logicline/e360-active-reader:v1.0.0-rc.3        "/app/main"              4 minutes ago   Exited (2) 2 minutes ago
+               e360_e360-active-reader_1
+cddf38943484   logicline/e360-telemetry-service:v1.0.0-rc.4    "/app/main"              4 minutes ago   Exited (0) About a minute ago
+               e360_telemetry-service_1
+8a6647db6bf4   logicline/e360-cockpit:v1.0.0-rc.1              "/docker-entrypoint.…"   4 minutes ago   Up 4 minutes                    0.0.0.0:3011->80/tcp, :::3011->80/tcp
+               e360_e360-cockpit_1
+efe0b63251bb   logicline/e360-device-service:v1.0.0-rc.25      "/usr/src/app/entryp…"   4 minutes ago   Up 4 minutes                    0.0.0.0:3000->3000/tcp, :::3000->3000/tcp
+               e360_device-repository_1
+42d7185a70c3   logicline/e360-maestro:v0.0.12                  "./main ./start.sh"      4 minutes ago   Exited (0) About a minute ago
+               e360_maestro_1
+a63b070eb0e2   logicline/e360-controller:v1.0.0-rc.10          "/usr/src/app/entryp…"   4 minutes ago   Up 4 minutes                    0.0.0.0:3010->3010/tcp, :::3010->3010/tcp
+               e360_controller_1
+06b877047892   logicline/e360-active-writer:v1.0.0-rc.1        "/app/main"              4 minutes ago   Up 4 minutes                    3013/tcp
+               e360_active-writer_1
+f9f65234eb51   timescale/timescaledb:latest-pg12               "docker-entrypoint.s…"   4 minutes ago   Up 4 minutes                    0.0.0.0:5432->5432/tcp, :::5432->5432/tcp
+               e360_timescale_1
+f15076c97d30   logicline/e360-r3:v1.0.0-rc.14                  "/usr/src/app/entryp…"   4 minutes ago   Exited (0) About a minute ago
+               e360_e360-r3_1
+e604a04c24e6   logicline/e360-opcua-client:v1.0.0-rc.1         "/app/main"              4 minutes ago   Up 4 minutes                    3007/tcp
+               e360_connector-opcua_1
+3b67e4034fa8   logicline/e360-ctor-sql:v1.0.0-rc.8             "/app/main"              4 minutes ago   Up 4 minutes                    3002/tcp, 0.0.0.0:3032->3032/tcp, :::3032->3032/tcp
+               e360_connector-sql_1
+7aef680e9561   traefik:v2.5                                    "/entrypoint.sh --ap…"   4 minutes ago   Created
+               e360_reverse-proxy_1
+cda22f0de6a6   edgexfoundry/sys-mgmt-agent:2.0.0               "/sys-mgmt-agent /sy…"   3 months ago    Exited (255) 2 months ago       127.0.0.1:58890->58890/tcp
+               edgex-sys-mgmt-agent
+032de6295cdd   edgexfoundry/device-mqtt:2.0.0                  "/device-mqtt /devic…"   3 months ago    Exited (255) 2 months ago       127.0.0.1:59982->59982/tcp
+               edgex-device-mqtt
+791664bb12b2   edgexfoundry/app-service-configurable:2.0.0     "/app-service-config…"   3 months ago    Exited (255) 2 months ago       48095/tcp, 127.0.0.1:59701->59701/tcp
+               edgex-app-rules-engine
+0ec20c74e8e0   edgexfoundry/app-service-configurable:2.0.0     "/app-service-config…"   3 months ago    Exited (255) 2 months ago       48095/tcp, 127.0.0.1:59702->59702/tcp
+               edgex-app-mqtt
+d6a15473650c   edgexfoundry/core-data:2.0.0                    "/core-data /core-da…"   3 months ago    Exited (255) 2 months ago       127.0.0.1:5563->5563/tcp, 127.0.0.1:59880->59880/tcp
+               edgex-core-data
+3ae7f816f909   edgexfoundry/core-command:2.0.0                 "/core-command /core…"   3 months ago    Exited (255) 2 months ago       127.0.0.1:59882->59882/tcp
+               edgex-core-command
+993e717f7355   edgexfoundry/core-metadata:2.0.0                "/core-metadata /cor…"   3 months ago    Exited (255) 2 months ago       127.0.0.1:59881->59881/tcp
+               edgex-core-metadata
+334f63a1b2b1   logicline/e360-data-link:manual-deployment      "/app/main"              3 months ago    Exited (255) 2 months ago       0.0.0.0:3003->3003/tcp, :::3003->3003/tcp
+               handover_e360-data-link_1
+98f9ac2ab8b1   edgexfoundry/support-scheduler:2.0.0            "/support-scheduler …"   3 months ago    Exited (255) 2 months ago       127.0.0.1:59861->59861/tcp
+               edgex-support-scheduler
+b248926c49b3   edgexfoundry/support-notifications:2.0.0        "/support-notificati…"   3 months ago    Exited (255) 2 months ago       127.0.0.1:59860->59860/tcp
+               edgex-support-notifications
+f4025b788379   emqx/kuiper:1.2.1-alpine                        "/usr/bin/docker-ent…"   3 months ago    Created
+               edgex-kuiper
+f723f032f217   logicline/e360-active-reader:manual-install-2   "/app/main"              3 months ago    Exited (2) 3 months ago
+               handover_e360-active-reader_1
+9a099ab0663a   logicline/e360-device-service:v1.0.0-rc.14      "/usr/src/app/entryp…"   3 months ago    Created
+               handover_device-repository_1
+b5b6f2dbcf52   logicline/e360-controller:v0.0.1-rc3            "/usr/src/app/entryp…"   3 months ago    Exited (255) 2 months ago       0.0.0.0:3010->3010/tcp, :::3010->3010/tcp
+               handover_controller_1
+873a2cf4e3c1   logicline/e360-maestro:v0.0.12                  "./main ./start.sh"      3 months ago    Exited (0) 3 months ago
+               handover_maestro_1
+706994d89df7   logicline/e360-r3:v1.0.0-rc.7                   "/usr/src/app/entryp…"   3 months ago    Exited (1) 3 months ago
+               handover_e360-r3_1
+6f0f2c338651   eclipse-mosquitto:2.0.11                        "/docker-entrypoint.…"   3 months ago    Exited (255) 2 months ago       0.0.0.0:1883->1883/tcp, :::1883->1883/tcp
+               edgex-mqtt-broker
+48fa73d7f5c0   logicline/e360-opcua-client:manual-install-2    "/app/main"              3 months ago    Exited (255) 2 months ago       0.0.0.0:3007->3007/tcp, :::3007->3007/tcp
+               handover_e360-opcua-client_1
+84973d3c2c0e   consul:1.9.5                                    "docker-entrypoint.s…"   3 months ago    Exited (255) 2 months ago       8300-8302/tcp, 8301-8302/udp, 8600/tcp, 8600/udp, 127.0.0.1:8500->8500/tcp
+               edgex-core-consul
+74ff3aff7576   redis:6.2.4-alpine                              "docker-entrypoint.s…"   3 months ago    Exited (255) 2 months ago       127.0.0.1:6379->6379/tcp
+               edgex-redis
+436981f19533   timescale/timescaledb:latest-pg12               "docker-entrypoint.s…"   3 months ago    Exited (255) 2 months ago       0.0.0.0:5432->5432/tcp, :::5432->5432/tcp
+               handover_timescale_1
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker ps
+CONTAINER ID   IMAGE                                        COMMAND                  CREATED         STATUS         PORTS                                                                                                                                                 NAMES
+320ee68e8b92   logicline/e360-data-link:v1.0.0-rc.8         "/app/main"              2 minutes ago   Up 2 minutes   0.0.0.0:3003->3003/tcp, :::3003->3003/tcp                                                                                                             e360_
+e360-data-link_1
+c4010e24cbd8   rabbitmq:3-management-alpine                 "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes   4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, :::5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp, :::15672->15672/tcp   rabbi
+tmq
+8a6647db6bf4   logicline/e360-cockpit:v1.0.0-rc.1           "/docker-entrypoint.…"   5 minutes ago   Up 5 minutes   0.0.0.0:3011->80/tcp, :::3011->80/tcp                                                                                                                 e360_
+e360-cockpit_1
+efe0b63251bb   logicline/e360-device-service:v1.0.0-rc.25   "/usr/src/app/entryp…"   5 minutes ago   Up 5 minutes   0.0.0.0:3000->3000/tcp, :::3000->3000/tcp                                                                                                             e360_
+device-repository_1
+a63b070eb0e2   logicline/e360-controller:v1.0.0-rc.10       "/usr/src/app/entryp…"   5 minutes ago   Up 5 minutes   0.0.0.0:3010->3010/tcp, :::3010->3010/tcp                                                                                                             e360_
+controller_1
+06b877047892   logicline/e360-active-writer:v1.0.0-rc.1     "/app/main"              5 minutes ago   Up 5 minutes   3013/tcp                                                                                                                                              e360_
+active-writer_1
+f9f65234eb51   timescale/timescaledb:latest-pg12            "docker-entrypoint.s…"   5 minutes ago   Up 5 minutes   0.0.0.0:5432->5432/tcp, :::5432->5432/tcp                                                                                                             e360_
+timescale_1
+e604a04c24e6   logicline/e360-opcua-client:v1.0.0-rc.1      "/app/main"              5 minutes ago   Up 5 minutes   3007/tcp                                                                                                                                              e360_
+connector-opcua_1
+3b67e4034fa8   logicline/e360-ctor-sql:v1.0.0-rc.8          "/app/main"              5 minutes ago   Up 5 minutes   3002/tcp, 0.0.0.0:3032->3032/tcp, :::3032->3032/tcp                                                                                                   e360_
+connector-sql_1
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker exec -it
+"docker exec" requires at least 2 arguments.
+See 'docker exec --help'.
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Run a command in a running container
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker exec -it f9f6 bin/sh
+/ # su postgres
+/ $ psql
+psql (12.8)
+Type "help" for help.
+
+postgres=# create database maestro,
+postgres-# create database maestro;
+ERROR:  syntax error at or near ","
+LINE 1: create database maestro,
+                               ^
+postgres=# create database maestro;
+CREATE DATABASE
+postgres=# create database reader;
+CREATE DATABASE
+postgres=# create database telemetry;
+CREATE DATABASE
+postgres=# create database r3;
+ERROR:  database "r3" already exists
+postgres=# exit
+/ $ exit
+/ # exit
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker ps
+CONTAINER ID   IMAGE                                          COMMAND                  CREATED          STATUS              PORTS
+   NAMES
+320ee68e8b92   logicline/e360-data-link:v1.0.0-rc.8           "/app/main"              9 minutes ago    Up 9 minutes        0.0.0.0:3003->3003/tcp, :::3003->3003/tcp
+   e360_e360-data-link_1
+c4010e24cbd8   rabbitmq:3-management-alpine                   "docker-entrypoint.s…"   9 minutes ago    Up 9 minutes        4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, :::5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp, :::15672->15672/tcp
+   rabbitmq
+f2af5eb964da   logicline/e360-active-reader:v1.0.0-rc.3       "/app/main"              11 minutes ago   Up About a minute   0.0.0.0:3006->3006/tcp, :::3006->3006/tcp
+   e360_e360-active-reader_1
+cddf38943484   logicline/e360-telemetry-service:v1.0.0-rc.4   "/app/main"              11 minutes ago   Up About a minute   0.0.0.0:3002->3002/tcp, :::3002->3002/tcp
+   e360_telemetry-service_1
+8a6647db6bf4   logicline/e360-cockpit:v1.0.0-rc.1             "/docker-entrypoint.…"   11 minutes ago   Up 11 minutes       0.0.0.0:3011->80/tcp, :::3011->80/tcp
+   e360_e360-cockpit_1
+efe0b63251bb   logicline/e360-device-service:v1.0.0-rc.25     "/usr/src/app/entryp…"   12 minutes ago   Up 11 minutes       0.0.0.0:3000->3000/tcp, :::3000->3000/tcp
+   e360_device-repository_1
+42d7185a70c3   logicline/e360-maestro:v0.0.12                 "./main ./start.sh"      12 minutes ago   Up About a minute
+   e360_maestro_1
+a63b070eb0e2   logicline/e360-controller:v1.0.0-rc.10         "/usr/src/app/entryp…"   12 minutes ago   Up 11 minutes       0.0.0.0:3010->3010/tcp, :::3010->3010/tcp
+   e360_controller_1
+06b877047892   logicline/e360-active-writer:v1.0.0-rc.1       "/app/main"              12 minutes ago   Up 12 minutes       3013/tcp
+   e360_active-writer_1
+f9f65234eb51   timescale/timescaledb:latest-pg12              "docker-entrypoint.s…"   12 minutes ago   Up 12 minutes       0.0.0.0:5432->5432/tcp, :::5432->5432/tcp
+   e360_timescale_1
+f15076c97d30   logicline/e360-r3:v1.0.0-rc.14                 "/usr/src/app/entryp…"   12 minutes ago   Up About a minute   0.0.0.0:3005->3005/tcp, :::3005->3005/tcp
+   e360_e360-r3_1
+e604a04c24e6   logicline/e360-opcua-client:v1.0.0-rc.1        "/app/main"              12 minutes ago   Up 12 minutes       3007/tcp
+   e360_connector-opcua_1
+3b67e4034fa8   logicline/e360-ctor-sql:v1.0.0-rc.8            "/app/main"              12 minutes ago   Up 12 minutes       3002/tcp, 0.0.0.0:3032->3032/tcp, :::3032->3032/tcp
+   e360_connector-sql_1
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ docker ps
+CONTAINER ID   IMAGE                                          COMMAND                  CREATED          STATUS              PORTS
+   NAMES
+320ee68e8b92   logicline/e360-data-link:v1.0.0-rc.8           "/app/main"              9 minutes ago    Up 9 minutes        0.0.0.0:3003->3003/tcp, :::3003->3003/tcp
+   e360_e360-data-link_1
+c4010e24cbd8   rabbitmq:3-management-alpine                   "docker-entrypoint.s…"   9 minutes ago    Up 9 minutes        4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, :::5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp, :::15672->15672/tcp
+   rabbitmq
+f2af5eb964da   logicline/e360-active-reader:v1.0.0-rc.3       "/app/main"              12 minutes ago   Up About a minute   0.0.0.0:3006->3006/tcp, :::3006->3006/tcp
+   e360_e360-active-reader_1
+cddf38943484   logicline/e360-telemetry-service:v1.0.0-rc.4   "/app/main"              12 minutes ago   Up About a minute   0.0.0.0:3002->3002/tcp, :::3002->3002/tcp
+   e360_telemetry-service_1
+8a6647db6bf4   logicline/e360-cockpit:v1.0.0-rc.1             "/docker-entrypoint.…"   12 minutes ago   Up 12 minutes       0.0.0.0:3011->80/tcp, :::3011->80/tcp
+   e360_e360-cockpit_1
+efe0b63251bb   logicline/e360-device-service:v1.0.0-rc.25     "/usr/src/app/entryp…"   12 minutes ago   Up 12 minutes       0.0.0.0:3000->3000/tcp, :::3000->3000/tcp
+   e360_device-repository_1
+42d7185a70c3   logicline/e360-maestro:v0.0.12                 "./main ./start.sh"      12 minutes ago   Up About a minute
+   e360_maestro_1
+a63b070eb0e2   logicline/e360-controller:v1.0.0-rc.10         "/usr/src/app/entryp…"   12 minutes ago   Up 12 minutes       0.0.0.0:3010->3010/tcp, :::3010->3010/tcp
+   e360_controller_1
+06b877047892   logicline/e360-active-writer:v1.0.0-rc.1       "/app/main"              12 minutes ago   Up 12 minutes       3013/tcp
+   e360_active-writer_1
+f9f65234eb51   timescale/timescaledb:latest-pg12              "docker-entrypoint.s…"   12 minutes ago   Up 12 minutes       0.0.0.0:5432->5432/tcp, :::5432->5432/tcp
+   e360_timescale_1
+f15076c97d30   logicline/e360-r3:v1.0.0-rc.14                 "/usr/src/app/entryp…"   12 minutes ago   Up About a minute   0.0.0.0:3005->3005/tcp, :::3005->3005/tcp
+   e360_e360-r3_1
+e604a04c24e6   logicline/e360-opcua-client:v1.0.0-rc.1        "/app/main"              12 minutes ago   Up 12 minutes       3007/tcp
+   e360_connector-opcua_1
+3b67e4034fa8   logicline/e360-ctor-sql:v1.0.0-rc.8            "/app/main"              12 minutes ago   Up 12 minutes       3002/tcp, 0.0.0.0:3032->3032/tcp, :::3032->3032/tcp
+   e360_connector-sql_1
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ cd..
+bash: cd..: command not found
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ cd\
+> ^C
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360 (master)
+$ cd ..
+
+sandorf@DENRDOM20013001 MINGW64 /l
+$ git clone git@bitbucket.org:logicline/e360-app-weichai.git
+Cloning into 'e360-app-weichai'...
+Receiving objects: 100% (333/333), 54.90 KiB | 624.00 KiB/s, done.
+Resolving deltas: 100% (124/124), done.
+
+sandorf@DENRDOM20013001 MINGW64 /l
+$ cd e360-app-weichai/
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360-app-weichai (master)
+$ git checkout development
+Switched to a new branch 'development'
+Branch 'development' set up to track remote branch 'development' from 'origin'.
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360-app-weichai (development)
+$ git pull
+Already up to date.
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360-app-weichai (development)
+$ go version
+go version go1.14.6 windows/amd64
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360-app-weichai (development)
+$ ^C
+
+sandorf@DENRDOM20013001 MINGW64 /l/e360-app-weichai (development)
+$

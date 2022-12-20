@@ -1,0 +1,54 @@
+cd path
+git init > makes lokals files for git
+git remote add git@bitbucket.org:abpintelligence/condition_monitoring_fluids.git
+git clone git@bitbucket.org:abpintelligence/condition_monitoring_electric.git -> sets git bucket
+git checkout -b development -> new branch "develpment"
+[git ignore modification]
+git add . -> adds all files to git
+git commit -m "first commit" -> saving changes after add
+git push origin development -> upload
+
+git clone git@bitbucket.org:abpintelligence/condition_monitoring_fluids.git
+git clone https://stefandorf@bitbucket.org/abpintelligence/condition_monitoring.git
+git remote add https://stefandorf@bitbucket.org/abpintelligence/condition_monitoring_fluids.git
+git checkout b development
+git checkout development
+git pull 
+
+
+git remote add origin git@bitbucket.org:abpintelligence/condition_monitoring_fluids.git
+
+bei PullRequest PR
+
+git pull origin development
+
+git branch --set-upstream-to=origin/development development
+
+git checkout -b fluids -> new branch "electric"
+
+
+git remote set-url https://stefandorf@bitbucket.org/abpintelligence/condition_monitoring_fluids.git
+
+ git remote set-url --delete origin git@bitbucket.org:abpintelligence/condition_monitoring_gas.git
+ 
+ git clone git@bitbucket.org:logicline/abp-edge-c8y-exporter.git
+ 
+ git clone 
+git remote set-url https://stefandorf@bitbucket.org/logicline/abp-edge-c8y-exporter.git
+
+golang training:
+
+git status
+git add --all
+git commit -m "vv"
+git push
+
+git remote add MyTest git@github.com:stefandorf/MyTest.git
+git remote add new-remote-repo https://bitbucket.com/user/repo.git
+
+
+git clone git@github.com:ABP-Induction/Digi-Edge-Prodapt-UI-Simulation.git
+git add .
+git commit -m "BE + UI zusammen"
+git push
+git checkout dev

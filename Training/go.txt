@@ -1,0 +1,13 @@
+%v value
+%T type
+
+println	line
+printf	format
+sprint	in string
+
+
+runtime.GOOS os 
+runtime.GOARCH cpu
+
+x... alle von []x
+...x mehre x übergeben {1,2,3}

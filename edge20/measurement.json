@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "identifier": "TripState",
+    "name": "TripState",
+    "description": "",
+    "dataType": "Number",
+    "isArray": false,
+    "connector": "opcua",
+    "profileId": 1,
+    "createdAt": "2021-08-25T12:00:11.078Z",
+    "connectorAttributes": [
+      {
+        "id": 1,
+        "key": "nodeId",
+        "value": "ns=2;s=S7-1.DB.DB_MeltingFurnaceMonitoring.TripState",
+        "measurementId": 1
+      }
+    ]
+  }
+]

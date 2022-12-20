@@ -1,0 +1,6 @@
+docker stop CondApp
+docker rm CondApp    
+docker build -t condition-monitoring .  
+docker run --name CondApp -p 8080:8080 -d condition-monitoring
+
+docker save -o D:\Apps\CondApp.tar condition-monitoring

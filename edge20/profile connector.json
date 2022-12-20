@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "identifier": "opcua",
+    "name": "OPCUA Connector",
+    "version": "1",
+    "release": "26482511",
+    "releaseDate": "09/06/2020",
+    "profileId": 1,
+    "createdAt": "2021-08-25T11:23:08.787Z",
+    "attributes": [
+      {
+        "id": 1,
+        "identifier": "opcua.endpoint",
+        "name": "Endpoint",
+        "description": "The endpoint of the OPC UA Device",
+        "required": true,
+        "dataType": "String",
+        "validatingRegex": "",
+        "default": "",
+        "sortOrder": 0,
+        "connectorId": 1,
+        "possibleValues": []
+      }
+    ]
+  }
+]

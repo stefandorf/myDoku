@@ -1,0 +1,129 @@
+{ "receiver": "https://testdata.free.beeceptor.com",
+  "device": {
+  "id": 1,
+  "name": "OPC UA Test Device #1",
+  "serialNumber": "4711",
+  "description": "A test device",
+  "active": true,
+  "createdAt": "2021-08-25T12:04:31.412Z",
+  "updatedAt": "2021-08-25T12:04:31.417Z",
+  "profileId": 1,
+  "connectors": [
+    {
+      "id": 1,
+      "name": "OPCUA Connector",
+      "identifier": "opcua",
+      "isConfigured": false,
+      "description": null,
+      "status": "Inactive",
+      "createdAt": "2021-08-25T12:04:31.522Z",
+      "updatedAt": "2021-08-25T12:04:31.526Z",
+      "deviceId": 1,
+      "attributes": [
+        {
+          "id": 1,
+          "identifier": "opcua.endpoint",
+          "dataType": "String",
+          "value": "opc.tcp://192.168.227.11:4840",
+          "createdAt": "2021-08-25T12:04:31.524Z",
+          "updatedAt": "2021-08-25T12:07:22.045Z",
+          "connectorId": 1
+        }
+      ]
+    }
+  ],
+  "attributes": []
+},
+  "deviceId": 1,
+  "id": 1,
+  "identifier": "measurement",
+  "measurements": [
+    {
+      "alias": "EnergyCounter",
+      "measurement": "EnergyCounter"
+    },
+	    {
+      "alias": "TripFurnace",
+      "measurement": "TripFurnace"
+    }
+  ],
+  "notificationRate": 1000,
+  "notificationType": "stream",
+  "profile": {
+  "id": 1,
+  "identifier": "opcua test",
+  "version": 1,
+  "name": "test for opcua profiles",
+  "description": "",
+  "createdAt": "2021-08-25T11:21:41.923Z",
+  "updatedAt": "2021-08-25T11:21:41.926Z",
+  "attributes": [],
+  "connectors": [
+    {
+      "id": 1,
+      "identifier": "opcua",
+      "name": "OPCUA Connector",
+      "version": "1",
+      "release": "26482511",
+      "releaseDate": "09/06/2020",
+      "profileId": 1,
+      "createdAt": "2021-08-25T11:23:08.787Z",
+      "attributes": [
+        {
+          "id": 1,
+          "identifier": "opcua.endpoint",
+          "name": "Endpoint",
+          "description": "The endpoint of the OPC UA Device",
+          "required": true,
+          "dataType": "String",
+          "validatingRegex": "",
+          "default": "",
+          "sortOrder": 0,
+          "connectorId": 1,
+          "possibleValues": []
+        }
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "id": 2,
+      "identifier": "EnergyCounter",
+      "name": "EnergyCounter",
+      "description": "",
+      "dataType": "Number",
+      "isArray": false,
+      "connector": "opcua",
+      "profileId": 1,
+      "createdAt": "2021-08-25T12:01:26.798Z",
+      "connectorAttributes": [
+        {
+          "id": 2,
+          "key": "nodeId",
+          "value": "ns=4;i=14165",
+          "measurementId": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "identifier": "TripFurnace",
+      "name": "TripFurnace",
+      "description": "",
+      "dataType": "Boolean",
+      "isArray": false,
+      "connector": "opcua",
+      "profileId": 1,
+      "createdAt": "2021-08-25T12:00:11.078Z",
+      "connectorAttributes": [
+        {
+          "id": 1,
+          "key": "nodeId",
+          "value": "ns=4;i=14174",
+          "measurementId": 1
+        }
+      ]
+    }
+  ]
+}
+ }

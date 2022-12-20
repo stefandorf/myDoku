@@ -1,0 +1,113 @@
+{
+  "device": {
+    "active": true,
+    "attributes": [
+      {}
+    ],
+    "connectors": [
+      {
+        "attributes": [
+          {
+            "connectorId": 0,
+            "createdAt": "string",
+            "dataType": "string",
+            "id": 0,
+            "identifier": "string",
+            "updatedAt": "string",
+            "value": "string"
+          }
+        ],
+        "createdAt": "string",
+        "description": {},
+        "deviceId": 0,
+        "id": 0,
+        "identifier": "string",
+        "isConfigured": true,
+        "name": "string",
+        "status": "string",
+        "updatedAt": "string"
+      }
+    ],
+    "createdAt": "string",
+    "description": "string",
+    "id": 0,
+    "name": "string",
+    "profileId": 0,
+    "serialNumber": "string",
+    "updatedAt": "string"
+  },
+  "deviceId": 0,
+  "id": 0,
+  "identifier": "string",
+  "measurements": [
+    {
+      "alias": "string",
+      "measurement": "string"
+    }
+  ],
+  "notificationRate": 0,
+  "notificationType": "string",
+  "profile": {
+    "attributes": [
+      {}
+    ],
+    "connectors": [
+      {
+        "attributes": [
+          {
+            "connectorId": 0,
+            "dataType": "string",
+            "default": "string",
+            "description": "string",
+            "id": 0,
+            "identifier": "string",
+            "name": "string",
+            "possibleValues": [
+              {}
+            ],
+            "required": true,
+            "sortOrder": 0,
+            "validatingRegex": "string"
+          }
+        ],
+        "createdAt": "string",
+        "id": 0,
+        "identifier": "string",
+        "name": "string",
+        "profileId": 0,
+        "release": "string",
+        "releaseDate": "string",
+        "version": "string"
+      }
+    ],
+    "createdAt": "string",
+    "description": "string",
+    "id": 0,
+    "identifier": "string",
+    "measurements": [
+      {
+        "connector": "string",
+        "connectorAttributes": [
+          {
+            "id": 0,
+            "key": "string",
+            "measurementId": 0,
+            "value": "string"
+          }
+        ],
+        "createdAt": "string",
+        "dataType": "string",
+        "description": "string",
+        "id": 0,
+        "identifier": "string",
+        "isArray": true,
+        "name": "string",
+        "profileId": 0
+      }
+    ],
+    "name": "string",
+    "updatedAt": "string",
+    "version": 0
+  },
+  "updatedAt": "string"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "KPI Test Device #1",
+    "serialNumber": "4711",
+    "description": "A test device",
+    "active": true,
+    "createdAt": "2021-08-25T12:04:31.412Z",
+    "updatedAt": "2021-08-25T12:04:31.417Z",
+    "profileId": 1,
+    "connectors": [
+      {
+        "id": 1,
+        "name": "OPCUA Connector",
+        "identifier": "opcua",
+        "isConfigured": false,
+        "description": null,
+        "status": "Inactive",
+        "createdAt": "2021-08-25T12:04:31.522Z",
+        "updatedAt": "2021-08-25T12:04:31.526Z",
+        "deviceId": 1,
+        "attributes": [
+          {
+            "id": 1,
+            "identifier": "opcua.endpoint",
+            "dataType": "String",
+            "value": "opc.tcp://192.168.227.111:4840",
+            "createdAt": "2021-08-25T12:04:31.524Z",
+            "updatedAt": "2021-08-25T12:07:22.045Z",
+            "connectorId": 1
+          }
+        ]
+      }
+    ],
+    "attributes": []
+  }
+]

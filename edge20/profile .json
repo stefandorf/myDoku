@@ -1,0 +1,58 @@
+{
+  "id": 1,
+  "identifier": "opcua test",
+  "version": 1,
+  "name": "test for opcua profiles",
+  "description": "",
+  "createdAt": "2021-08-24T19:43:48.698Z",
+  "updatedAt": "2021-08-24T19:43:48.703Z",
+  "attributes": [],
+  "connectors": [
+    {
+      "id": 1,
+      "identifier": "opcua",
+      "name": "OPCUA Connector",
+      "version": "12.0.4-rc-4",
+      "release": "26482511",
+      "releaseDate": "09/06/2020",
+      "profileId": 1,
+      "createdAt": "2021-08-24T19:55:32.088Z",
+      "attributes": [
+        {
+          "id": 1,
+          "identifier": "opcua.endpoint",
+          "name": "Endpoint",
+          "description": "The endpoint of the OPC UA Device",
+          "required": true,
+          "dataType": "String",
+          "validatingRegex": "",
+          "default": "",
+          "sortOrder": 0,
+          "connectorId": 1,
+          "possibleValues": []
+        }
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "id": 1,
+      "identifier": "node_1",
+      "name": "Node1",
+      "description": "",
+      "dataType": "Number",
+      "isArray": false,
+      "connector": "opcua",
+      "profileId": 1,
+      "createdAt": "2021-08-24T20:12:14.172Z",
+      "connectorAttributes": [
+        {
+          "id": 1,
+          "key": "nodeId",
+          "value": "ns=2;i=0",
+          "measurementId": 1
+        }
+      ]
+    }
+  ]
+}

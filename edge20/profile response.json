@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "identifier": "opcua test",
+  "version": 1,
+  "name": "test for opcua profiles",
+  "description": "",
+  "createdAt": "2021-08-24T19:43:48.698Z",
+  "updatedAt": "2021-08-24T19:43:48.703Z",
+  "attributes": [],
+  "connectors": [],
+  "measurements": []
+}

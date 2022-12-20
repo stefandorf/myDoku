@@ -1,0 +1,4 @@
+git bash
+pwd print working directory
+ls list / dir
+cat gibt aus

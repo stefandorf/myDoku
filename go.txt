@@ -1,0 +1,45 @@
+%v value
+%T type
+
+println	line
+printf	format
+sprint	in string
+
+
+runtime.GOOS os 
+runtime.GOARCH cpu
+
+x... alle von []x
+...x mehre x übergeben {1,2,3}
+
+defer ->  nach ende der Funktion ausgeführt
+
+func (s tye) name(){} --> variable vom Typ type haben zugriff
+
+switch x.(tye)
+
+type xxx interface { funcY()} - wenn zwei funktionen funcY() haben
+
+closure 
+func incrementor() func() int {
+	var x int
+	return func() int {
+	x++
+	return x}
+a := incrementor()
+b := incrementor()
+fmt.Println(a()) -> bei jedem aufruf von a/b wird +1 geamcht, aber separat
+
+& adresse von
+* wert von
+
+var wg sync.WaitGroup
+wg.Add(x)
+wg.Done() x times
+wg.Waint() auf Dones
+
+go func(){code}() inline Funktion
+	
+assertion
+○ https://play.golang.org/p/pbl2kCYsM0
+e.(Untertyp).structelement

@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "identifier": "node_1",
+  "name": "Node1",
+  "description": "",
+  "dataType": "Number",
+  "isArray": false,
+  "connector": "opcua",
+  "profileId": 1,
+  "createdAt": "2021-08-24T20:12:14.172Z",
+  "connectorAttributes": [
+    {
+      "id": 1,
+      "key": "nodeId",
+      "value": "ns=2;i=0",
+      "measurementId": 1
+    }
+  ]
+}

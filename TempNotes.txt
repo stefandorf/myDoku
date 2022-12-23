@@ -15,3 +15,33 @@
 	CalculatedLosses int
 	SelectedReason   string
 }
+
+
+// The UiArchive is a representation for a single measurement point
+type UiArchive struct {
+	Id               uint      `json:"id"`               // ID der Gorm
+	DeviceId         int       `json:"deviceID"`         // device ID
+	EventTyp         int       `json:"eventTyp"`         // text dazu im Frontend
+	Date             time.Time `json:"date"`             // '24. April 2022 17:58', --> mit Fehler Start
+	RealValue        int       `json:"realValue"`        // actual Value
+	TargetValue      int       `json:"targetValue"`      // target Value
+	CalculatedLosses int       `json:"calculatedLosses"` // target Value
+	SelectedReason   string    `json:"selectedReason"`   // target Value
+}
+
+// The UiActual is a representation for a single measurement point
+type UiActual struct {
+	Id          uint `json:"id"`          // ID der Gorm
+	DeviceId    int  `json:"deviceID"`    // device ID
+	EventTyp    int  `json:"eventTyp"`    // text dazu im Frontend
+	TargetValue int  `json:"targetValue"` // target Value
+	Active      bool `json:"active"`      // target Value
+
+}
+
+// The UiRsponse is a representation for a single measurement point
+type UiRsponse struct {
+	Id             uint   `json:"id"`             // ID der Gorm
+	SelectedReason string `json:"selectedReason"` // target Value
+
+}
